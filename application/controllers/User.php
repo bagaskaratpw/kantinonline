@@ -7,4 +7,8 @@ class User extends CI_Controller {
 	{
 		$this->load->view('depan');
 	}
+	public function contact()
+	{
+		$this->load->view('contact');
+	}
 }

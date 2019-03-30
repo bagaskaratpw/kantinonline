@@ -1,997 +1,733 @@
-<!DOCTYPE html>
-<html lang="zxx">
+<?php echo base_url('asset/');?><!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>GO-STAND | Home</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8"/>
-    <meta name="keywords" content="Cookie Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design"/>
-    <script>
-        addEventListener("load", function () {
-            setTimeout(hideURLbar, 0);
-        }, false);
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Home | Corlate</title>
 
-        function hideURLbar() {
-            window.scrollTo(0, 1);
-        }
-    </script>
-    <!-- Custom Theme files -->
-    <link href="<?php echo base_url('asset/');?>css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
-    <link rel="stylesheet" href="<?php echo base_url('asset/');?>css/aos.css">
-    <link href="<?php echo base_url('asset/');?>css/style.css" type="text/css" rel="stylesheet" media="all">
-    <!-- font-awesome icons -->
+    <!-- core CSS -->
+    <link href="<?php echo base_url('asset/');?>css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo base_url('asset/');?>css/font-awesome.min.css" rel="stylesheet">
-    <!-- //Custom Theme files -->
-    <!-- online-fonts -->
-    <link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-    <!-- //online-fonts -->
+    <link href="<?php echo base_url('asset/');?>css/animate.min.css" rel="stylesheet">
+    <link href="<?php echo base_url('asset/');?>css/prettyPhoto.css" rel="stylesheet">
+    <link href="<?php echo base_url('asset/');?>css/owl.carousel.min.css" rel="stylesheet">
+    <link href="<?php echo base_url('asset/');?>css/icomoon.css" rel="stylesheet">
+    <link href="<?php echo base_url('asset/');?>css/main.css" rel="stylesheet">
+    <link href="<?php echo base_url('asset/');?>css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url('asset/');?>images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url('asset/');?>images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url('asset/');?>images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="<?php echo base_url('asset/');?>images/ico/apple-touch-icon-57-precomposed.png">
 </head>
+<!--/head-->
 
-<body>
-    <!-- top header -->
-    <div class="header-top bg-theme">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <ul class="d-sm-flex header-w3_pvt">
-                        <li>
-                            <span class="fa fa-envelope-open"></span>
-                            <a href="mailto:example@email.com" class="text-white">info_gostand@gmail.com</a>
-                        </li>
-                        <li>
-                            <span class="fa fa-phone"></span>
-                            <p class="d-inline text-white">+62</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-6 hearder-right-w3_pvt">
-                    <ul class="d-sm-flex header-w3_pvt justify-content-lg-end">
-                        <li><button type="button" class="btn w3ls-btn d-block" data-toggle="modal" aria-pressed="false"
-                                data-target="#exampleModal1">
-                                <span class="fa fa-sign-in"></span>Register
-                            </button>
-                        </li>
-                        <li>
-                            <button type="button" class="btn w3ls-btn btn-2  d-block" data-toggle="modal" aria-pressed="false"
-                                data-target="#exampleModal">
-                                <span class="fa fa-lock"></span> Sign in
-                            </button>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- //top header -->
-    <!-- banner -->
-    <div id="home">
-        <!-- header -->
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light"  data-aos="fade-down">
-                <h1>
-                    <a class="navbar-brand text-white" href="index.html" data-aos="zoom-in">
-                        GO-STAND
-                    </a>
-                </h1>
-                <button class="navbar-toggler ml-md-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-lg-auto text-center">
-                        <li class="nav-item active  mr-lg-3 mt-lg-0 mt-3" data-aos="zoom-in">
-                            <a class="nav-link" href="<?php echo base_url('user/index')?>">Home
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item  mr-lg-3 mt-lg-0 mt-3" data-aos="zoom-in">
-                            <a class="nav-link scroll" href="#about">about</a>
-                        </li>
-                        <li class="nav-item dropdown mr-lg-3 mt-lg-0 mt-3" data-aos="zoom-in">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
-                                Others
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item scroll" href="#team">team</a>
-                                <a class="dropdown-item scroll" href="#services">services</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item scroll" href="#more">more</a>
-                                <a class="dropdown-item scroll" href="#posts">latest posts</a>
-                            </div>
-                        </li>
-                        <li class="nav-item  mt-lg-0 mt-3" data-aos="zoom-in">
-                            <a class="nav-link scroll" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+<body class="homepage">
 
-            </nav>
-        </header>
-        <!-- //header -->
-        <div class="callbacks_container">
-            <ul class="rslides" id="slider3">
-                <li class="banner banner1">
-                    <div class="container">
-                        <div class="banner-text">
-                            <div class="slider-info">
-                                <span  data-aos="zoom-in">Tidak Perlu Antri</span>
-                                <h3  data-aos="zoom-in">GO STAND memudahkan siswa untuk antri di kantin</h3>
-                                <a  data-aos="zoom-in" class="btn btn-primary mt-4 w3_pvt-link-bnr scroll bg-theme1" href="#about" role="button">View
-                                    More</a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="banner banner2">
-                    <div class="container">
-                        <div class="banner-text">
-                            <div class="slider-info">
-                                <span data-aos="zoom-in">Cepat</span>
-                                <h3 data-aos="zoom-in">Buka aplikasi langusng terdaftar</h3>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <!-- //banner -->
-    <!-- about -->
-    <div class="about-w3sec py-md-5" id="about">
-        <div class="container py-sm-5 py-4">
-            <div class="title-section pb-4"  data-aos="fade-up">
-                <h3 class="main-title-w3_pvt">GO STAND</h3>
-                <span class="title-line">
-                </span>
-                <p class="about-txt text-center">GO STAND merupakan aplikasi untuk memudahkan siswa dalam antri di kantin. siswa tidak perlu
-                berdesak-desakan di kantin. cukup membuka aplikasi GO STAND dan memilih apa yang diinginkan sudah terdaftar dan tinggal datang ke kantin.</p>
-            </div>
-
-            <div class="space-sec1 text-center position-relative">
-                <div class="row">
-                    <div class="col-lg-4 abt-block" data-aos="zoom-in">
-                        <div class="about-icon-w3">
-                            <span class="fa fa-life-ring " aria-hidden="true"></span>
-                        </div>
-                        <h3>Cepat</h3>
-                        <p>Rutrum congue donec leo eget malesuada. Cras ultriciet malesuaes ligula sed magna dictum
-                            porta.</p>
-                    </div>
-                    <div class="col-lg-4 abt-block" data-aos="zoom-in">
-                        <div class="about-icon-w3">
-                            <span class="fa fa-adjust " aria-hidden="true"></span>
-                        </div>
-                        <h3>Mudah</h3>
-                        <p>Rutrum congue donec leo eget malesuada. Cras ultriciet malesuaes ligula sed magna dictum
-                            porta.</p>
-                    </div>
-                    <div class="col-lg-4 abt-block" data-aos="zoom-in">
-                        <div class="about-icon-w3">
-                            <span class="fa fa-bullseye " aria-hidden="true"></span>
-                        </div>
-                        <h3>Praktis</h3>
-                        <p>Rutrum congue donec leo eget malesuada. Cras ultriciet malesuaes ligula sed magna dictum
-                            porta.</p>
-                    </div>
-                    <div class="col-lg-4 abt-block">
-                        <div class="about-icon-w3">
-                            <span class="fa fa-adjust " aria-hidden="true"></span>
-                        </div>
-                        <h3>butter Cookies</h3>
-                        <p>Rutrum congue donec leo eget malesuada. Cras ultriciet malesuaes ligula sed magna dictum
-                            porta.</p>
-                    </div>
-                    <div class="col-lg-4 abt-block" data-aos="zoom-in">
-                        <div class="about-icon-w3">
-                            <span class="fa fa-bullseye " aria-hidden="true"></span>
-                        </div>
-                        <h3> pecan Cookies</h3>
-                        <p>Rutrum congue donec leo eget malesuada. Cras ultriciet malesuaes ligula sed magna dictum
-                            porta.</p>
-                    </div>
-                    <div class="col-lg-4 abt-block" data-aos="zoom-in">
-                        <div class="about-icon-w3">
-                            <span class="fa fa-life-ring " aria-hidden="true"></span>
-                        </div>
-                        <h3>dream Cookies</h3>
-                        <p>Rutrum congue donec leo eget malesuada. Cras ultriciet malesuaes ligula sed magna dictum
-                            porta.</p>
-                    </div>
-                </div>
-                <div class="about-image" data-aos="zoom-in">
-                    <img src="images/about.jpg" alt="" class="img-fluid"/>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- //about -->
-    <!-- slide -->
-    <div class="row mx-0">
-        <div class="col-lg-6 bg-theme1 slide-left" data-aos="fade-up">
-            <div class="title-section text-center">
-                <h3 class="main-title-w3_pvt text-left text-white">100% pure butter cookies </h3>
-                <p class="slide-txt text-left text-white">Lorem ipsum dolor sit amet,sed diam nonumy eirmod tempor
-                    invidunt
-                    ut
-                    labore et
-                    dolore magna
-                    aliquyam erat, At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor
-                    sit
-                    amet,
-                    no sea takimata sanctus est Lorem ipsum dolor sit amet. Stet clita kasd gubergren, no sea
-                    takimata
-                    sanctus est.</p>
-            </div>
-        </div>
-        <div class="col-lg-6 slide-bg" data-aos="fade-down">
-        </div>
-    </div>
-    <!-- //slide -->
-    <!-- team -->
-    <div class="team-wthree py-lg-5" id="team" >
-        <div class="container py-sm-5 py-4">
-            <div class="title-section pb-4">
-                <h3 class="main-title-w3_pvt">meet our team</h3>
-                <span class="title-line">
-                </span>
-            </div>
-            <div class="row team space-sec1" data-aos="fade-up">
-                <div class="col-md-12">
-                    <div id="teamCarousel" class="carousel slide" data-ride="carousel">
-
-                        <ol class="carousel-indicators">
-                            <li data-target="#teamCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#teamCarousel" data-slide-to="1"></li>
-                        </ol>
-                        <!-- Carousel items -->
-                        <div class="carousel-inner team-wthree-main">
-                            <div class="carousel-item active">
-                                <div class="d-md-flex team-agile-row">
-                                    <div class="col-lg-4 col-md-6 w3-slide-grid">
-                                        <div class="box20 position-relative">
-                                            <img src="images/t1.jpg" alt="" class="img-fluid rounded"/>
-                                            <div class="team-txt bg-theme1">
-                                                <p> Lorem ipsum dolor sit amet onsect etur adipisicing elit, sed
-                                                    do eiusmod tempor incididunt.</p>
-                                                <h6>amet onsect</h6>
-                                                <small>role in brief</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 w3-slide-grid">
-                                        <div class="box20 position-relative">
-                                            <img src="images/t2.jpg" alt="" class="img-fluid rounded"/>
-                                            <div class="team-txt bg-theme1">
-                                                <p> Lorem ipsum dolor sit amet onsect etur adipisicing elit, sed
-                                                    do eiusmod tempor incididunt.</p>
-                                                <h6>amet onsect</h6>
-                                                <small>role in brief</small>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 w3-slide-grid">
-                                        <div class="box20 position-relative">
-                                            <img src="images/t3.jpg" alt="" class="img-fluid rounded"/>
-                                            <div class="team-txt bg-theme1">
-                                                <p> Lorem ipsum dolor sit amet onsect etur adipisicing elit, sed
-                                                    do eiusmod tempor incididunt.</p>
-                                                <h6>incididun</h6>
-                                                <small>role in brief</small>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--.item-->
-                            <div class="carousel-item">
-                                <div class="d-md-flex team-agile-row">
-                                    <div class="col-lg-4 col-md-6 w3-slide-grid" data-aos="zoom-in" data-aos-duration="4000">
-                                        <div class="box20 position-relative">
-                                            <img src="images/t2.jpg" alt="" class="img-fluid rounded"/>
-                                            <div class="team-txt bg-theme1">
-                                                <p> Lorem ipsum dolor sit amet onsect etur adipisicing elit, sed
-                                                    do eiusmod tempor incididunt.</p>
-                                                <h6>eiusmod tempo</h6>
-                                                <small>role in brief</small>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 w3-slide-grid" data-aos="zoom-in">
-                                        <div class="box20 position-relative">
-                                            <img src="images/t1.jpg" alt="" class="img-fluid rounded"/>
-                                            <div class="team-txt bg-theme1">
-                                                <p> Lorem ipsum dolor sit amet onsect etur adipisicing elit, sed
-                                                    do eiusmod tempor incididunt.</p>
-                                                <h6>usmod tempo</h6>
-                                                <small>role in brief</small>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 w3-slide-grid" data-aos="zoom-in">
-                                        <div class="box20 position-relative">
-                                            <img src="images/t3.jpg" alt="" class="img-fluid rounded"/>
-                                            <div class="team-txt bg-theme1">
-                                                <p> Lorem ipsum dolor sit amet onsect etur adipisicing elit, sed
-                                                    do eiusmod tempor incididunt.</p>
-                                                <h6>Lorem ipsue</h6>
-                                                <small>role in brief</small>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--.row-->
-                            </div>
-                            <!--.item-->
-
-                        </div>
-                        <!--.carousel-inner-->
-                    </div>
-                    <!--.Carousel-->
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- //team -->
-    <!-- stats -->
-    <section class="w3_pvt_stats py-md-5" id="more">
-        <div class="container">
-            <div class="py-lg-5 w3-abbottom">
-                <div class="row py-sm-5 py-4">
-                    <div class="counter col-lg-3 col-6" data-aos="fade-up">
-                        <i class="fa fa-smile-o"></i>
-                        <div class="timer count-title count-number mt-2 text-white" data-to="5100" data-speed="1500"></div>
-                        <p class="count-text text-white">happy customers</p>
-                    </div>
-
-                    <div class="counter col-lg-3 col-6" data-aos="fade-up">
-                        <i class="fa fa-database"></i>
-                        <div class="timer count-title count-number mt-2 text-white" data-to="971" data-speed="1500"></div>
-                        <p class="count-text text-white">branches</p>
-                    </div>
-                    <div class="counter col-lg-3 col-6 mt-lg-0 mt-4" data-aos="fade-up">
-                        <i class="fa fa-users"></i>
-                        <div class="timer count-title count-number mt-2 text-white" data-to="74" data-speed="1500"></div>
-                        <p class="count-text text-white">professional chefs</p>
-                    </div>
-                    <div class="counter col-lg-3 col-6 mt-lg-0 mt-4" data-aos="fade-up">
-                        <i class="fa fa-trophy"></i>
-                        <div class="timer count-title count-number mt-2 text-white" data-to="27" data-speed="1500"></div>
-                        <p class="count-text text-white">years of experience</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- //stats -->
-    <!-- services -->
-    <div class="w3_pvt-works py-sm-5 py-4" id="services">
-        <div class="container py-lg-5">
-            <div class="title-section pb-4">
-                <h3 class="main-title-w3_pvt">services we offer</h3>
-                <span class="title-line">
-                </span>
-            </div>
-            <div class="row space-sec">
-                <div class="col-lg-3 col-sm-6 text-center" data-aos="zoom-in">
-                    <div class="ih-item circle info_circle_icon d-flex align-items-center justify-content-center bg-theme">
-                        <span class="fa fa-adjust bg-theme " aria-hidden="true"></span>
-                    </div>
-                    <div class="ih-item-desc">
-                        <h4 class="item-title">heading 1</h4>
-                        <p>Lorem ipsum dolor sit amet,sed diam nonumy eirmod tempor invionumy eirmodunt ut labore.</p>
-                        <a class="btn btn-primary mt-4 w3_pvt-link-bnr scroll bg-theme1 text-white" href="#about" role="button">View
-                            More</a>
-                    </div>
-                </div>
-                <div class="col-lg-3  col-sm-6  text-center my-sm-0 my-4" data-aos="zoom-in">
-                    <div class="ih-item circle info_circle_icon d-flex align-items-center justify-content-center">
-                        <span class="fa fa-life-ring bg-theme " aria-hidden="true"></span>
-                    </div>
-                    <div class="ih-item-desc">
-                        <h4 class="item-title">heading 2</h4>
-                        <p>Lorem ipsum dolor sit amet,sed diam nonumy eirmod tempor invionumy eirmodunt ut labore.</p>
-                        <a class="btn btn-primary mt-4 w3_pvt-link-bnr scroll bg-theme1 text-white" href="#about" role="button">View
-                            More</a>
-                    </div>
-                </div>
-                <div class="col-lg-3  col-sm-6  text-center mt-lg-0 mt-sm-5" data-aos="zoom-in">
-                    <div class="ih-item circle info_circle_icon d-flex align-items-center justify-content-center">
-                        <span class="fa fa-bullseye bg-theme " aria-hidden="true"></span>
-                    </div>
-                    <div class="ih-item-desc">
-                        <h4 class="item-title">heading 3</h4>
-                        <p>Lorem ipsum dolor sit amet,sed diam nonumy eirmod tempor invionumy eirmodunt ut labore.</p>
-                        <a class="btn btn-primary mt-4 w3_pvt-link-bnr scroll bg-theme1 text-white" href="#about" role="button">View
-                            More</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6  text-center mt-lg-0 mt-sm-5 mt-4" data-aos="zoom-in">
-                    <div class="ih-item circle info_circle_icon d-flex align-items-center justify-content-center">
-                        <span class="fa fa-pie-chart  bg-theme " aria-hidden="true"></span>
-                    </div>
-                    <div class="ih-item-desc">
-                        <h4 class="item-title">heading 4</h4>
-                        <p>Lorem ipsum dolor sit amet,sed diam nonumy eirmod tempor invionumy eirmodunt ut labore.</p>
-                        <a class="btn btn-primary mt-4 w3_pvt-link-bnr scroll bg-theme1 text-white" href="#about" role="button">View
-                            More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- //services -->
-    <!-- blog -->
-    <section class="blog_w3ls py-lg-5" id="posts">
-        <div class="container py-sm-5 py-4">
-            <div class="title-section pb-4">
-                <h3 class="main-title-w3_pvt">latest posts</h3>
-                <span class="title-line">
-                </span>
-            </div>
-            <div class="row space-sec">
-                <!-- blog grid -->
-                <div class="col-lg-4 col-md-6 mt-sm-0 mt-4" data-aos="zoom-out">
-                    <div class="card border-0">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal2" data-toggle="modal" aria-pressed="false" data-target="#exampleModal2"
-                                role="button">
-                                <img class="card-img-bottom" src="images/p1.jpg" alt="Card image cap">
-                                <span class="fa fa-user post-icon bg-theme1 " aria-hidden="true"></span>
-
-                            </a>
-                        </div>
-                        <div class="card-body border-0">
-                            <h5 class="blog-title card-title font-weight-bold">
-                                <a href="#exampleModal2" data-toggle="modal" aria-pressed="false" data-target="#exampleModal2"
-                                    role="button">Cras ultricies ligula sed.</a>
-                            </h5>
-                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit
-                                ametLorem ipsum dolor sit amet,sed diam nonumy.</p>
-                            <button type="button" class="btn blog-btn wthree-bnr-btn mt-3" data-toggle="modal"
-                                aria-pressed="false" data-target="#exampleModal2">
-                                Read more
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- //blog grid -->
-                <!-- blog grid -->
-                <div class="col-lg-4 col-md-6 mt-md-0 mt-sm-5 mt-4"  data-aos="zoom-out">
-                    <div class="card border-0">
-                        <div class="card-header p-0 position-relative">
-                            <a href="#exampleModal3" data-toggle="modal" aria-pressed="false" data-target="#exampleModal3"
-                                role="button">
-                                <img class="card-img-bottom" src="images/p2.jpg" alt="Card image cap">
-                                <span class="fa fa-user post-icon bg-theme1 " aria-hidden="true"></span>
-
-                            </a>
-                        </div>
-                        <div class="card-body border-0">
-                            <h5 class="blog-title card-title font-weight-bold">
-                                <a href="#exampleModal3" data-toggle="modal" aria-pressed="false" data-target="#exampleModal3"
-                                    role="button">magna porta auris blandita.</a>
-                            </h5>
-                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit
-                                ametLorem ipsum dolor sit amet,sed diam nonumy.</p>
-                            <button type="button" class="btn blog-btn wthree-bnr-btn mt-3" data-toggle="modal"
-                                aria-pressed="false" data-target="#exampleModal3">
-                                Read more
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- //blog grid -->
-                <!-- blog grid -->
-                <div class="col-lg-4 col-md-6 mt-lg-0 mt-5 mx-auto"  data-aos="zoom-out">
-                    <div class="card border-0">
-                        <div class="card-header p-0  position-relative">
-                            <a href="#exampleModal4" data-toggle="modal" aria-pressed="false" data-target="#exampleModal4"
-                                role="button">
-                                <img class="card-img-bottom" src="images/p3.jpg" alt="Card image cap">
-                                <span class="fa fa-user post-icon bg-theme1 " aria-hidden="true"></span>
-                            </a>
-                        </div>
-                        <div class="card-body border-0">
-                            <h5 class="blog-title card-title font-weight-bold">
-                                <a href="#exampleModal4" data-toggle="modal" aria-pressed="false" data-target="#exampleModal4"
-                                    role="button">Cras ultricies ligula sed.</a>
-                            </h5>
-                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit
-                                ametLorem ipsum dolor sit amet,sed diam nonumy.</p>
-                            <button type="button" class="btn blog-btn wthree-bnr-btn mt-3" data-toggle="modal"
-                                aria-pressed="false" data-target="#exampleModal4">
-                                Read more
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- //blog grid -->
-            </div>
-        </div>
-    </section>
-    <!-- //blog -->
-    <!-- slide bottom-->
-    <div class="slide-bottom py-lg-5" id="slide-btm-wthree">
-        <div class="container py-sm-5 py-4">
-            <div class="title-section pb-4" data-aos="fade-down">
-                <h3 class="main-title-w3_pvt text-white">World Best Chocolate Chip Cookies</h3>
-                <span class="title-line bg-light">
-                </span>
-            </div>
-            <div class="text-center pt-lg-5"  data-aos="fade-up">
-                <div class="slide-btm-wthree-w3_pvt">
-                    <p class="text-white">
-                        <i class="fa fa-quote-left"></i>Vivamus magna justo, lacinia eget consectetur
-                        sed,
-                        convallis at tellus. Nulla
-                        quis lorem ut libero malesuada feugiat.Nulla quis lorem ut libero malesuada
-                        feugiat.
-                        Donec rutrum congue leo eget malesuada. Lorem ipsum dolor sit amet, consectetur
-                        adipiscing
-                        elit.
-                        <i class="fa fa-quote-right"></i>
-                    </p>
-                </div>
-                <div class="d-sm-flex justify-content-center">
-                    <a class="btn btn-primary mt-4 w3_pvt-link-bnr scroll bg-theme1" href="#contact" role="button">contact us
-                    </a>
-                    <a href="#" role="button" data-toggle="modal" data-target="#exampleModal1" class="btn bg-theme mt-4 ml-3 w3_pvt-link-bnr scroll text-white">
-                        Register Now</a>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- //slide bottom -->
-    <!-- contact -->
-    <div class="contact-wthree" id="contact">
-        <div class="container py-sm-5">
-            <div class="title-section py-4">
-                <h3 class="main-title-w3_pvt">contact us</h3>
-                <span class="title-line">
-                </span>
-            </div>
-            <div class="row py-lg-5 py-4">
-                <div class="col-lg-5" data-aos="zoom-in">
-                    <div class="w3_pvt-contact-top">
-                        <h4>Universitas Dian Nuswantoro</h4>
-                        <p>Jalan Imam Bonjol, Semarang</p>
-                    </div>
-                    <hr>
-                    <!-- map -->
-                    <div class="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1980.115860936788!2d110.40820252576074!3d-6.981959599274716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708b4ec52229d7%3A0xc791d6abc9236c7!2sUniversitas+Dian+Nuswantoro!5e0!3m2!1sid!2sid!4v1553961011789!5m2!1sid!2sid"
-                            allowfullscreen></iframe>
-                    </div>
-                    <!--// map-->
-                </div>
-                <div class="offset-1"></div>
-                <div class="col-lg-6 mt-lg-0 mt-5" data-aos="zoom-in">
-                    <!-- register form grid -->
-                    <div class="register-top1">
-                        <form action="#" method="get" class="register-wthree">
-                            <div class="form-group">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <label>
-                                            First name
-                                        </label>
-                                        <input class="form-control" type="text" placeholder="Johnson" name="email"
-                                            required="">
-                                    </div>
-                                    <div class="col-md-6 mt-md-0 mt-4">
-                                        <label>
-                                            Last name
-                                        </label>
-                                        <input class="form-control" type="text" placeholder="Kc" name="name" required="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <label>
-                                            Mobile
-                                        </label>
-                                        <input class="form-control" type="text" placeholder="xxxx xxxxx" name="email"
-                                            required="">
-                                    </div>
-                                    <div class="col-md-6 mt-md-0 mt-4">
-                                        <label>
-                                            Email
-                                        </label>
-                                        <input class="form-control" type="email" placeholder="example@email.com" name="email"
-                                            required="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <label>
-                                            Your message
-                                        </label>
-                                        <textarea placeholder=" type your message here" class="form-control"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row mt-3">
-                                <div class="col-md-12">
-                                    <button type="submit" class="btn btn-w3_pvt btn-block w-100 font-weight-bold text-uppercase bg-theme1">Send</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <!--  //register form grid ends here -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- footer -->
-    <div class="footerv4-w3ls" id="footer">
-        <div class="footerv4-top">
+    <header id="header">
+        <div class="top-bar">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-sm-6 footv4-left" data-aos="fade-up">
-
-                        <h2>
-                            <a href="index.html">Cookie</a>
-                        </h2>
-                        <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry. Lorem Ipsum
-                            has
-                            been
-                            the
-                            industry's standard.</p>
-
-
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="top-number">
+                            <p><i class="fa fa-phone-square"></i> +0123 456 70 90</p>
+                        </div>
                     </div>
-                    <div class="col-lg-2 col-sm-6 footv4-content mt-sm-0 mt-4" data-aos="fade-up">
-                        <h3>Navigation</h3>
-                        <ul class="v4-content">
-                            <li>
-                                <a href="index.html">Home</a>
-                            </li>
-                            <li>
-                                <a href="#about" class="scroll">About Us</a>
-                            </li>
-                            <li>
-                                <a href="#services" class="scroll">services</a>
-                            </li>
-                            <li>
-                                <a href="#posts" class="scroll">latest posts</a>
-                            </li>
-                            <li>
-                                <a href="#contact" class="scroll">contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 footv4-left fv4-g3 my-lg-0 mt-4" data-aos="fade-up">
-                        <div class="footerv4-social">
-                            <h3>stay connected</h3>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <span class="fa fa-facebook-f icon_facebook"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span class="fa fa-twitter icon_twitter"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span class="fa fa-dribbble icon_dribbble"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span class="fa fa-google-plus icon_g_plus"></span>
-                                    </a>
-                                </li>
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="social">
+                            <ul class="social-share">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
                             </ul>
+                            <div class="search">
+                                <form role="form">
+                                    <input type="text" class="search-form" autocomplete="off" placeholder="Search">
+                                    <i class="fa fa-search"></i>
+                                </form>
+                            </div>
                         </div>
-                        <!-- //footer social -->
-                    </div>
-                    <div class="col-lg-3 col-sm-6 footv4-left my-lg-0 my-4" data-aos="fade-up">
-                        <h3>contact</h3>
-                        <ul class="d-flex header-agile pt-0 flex-column">
-                            <li>
-                                <span class="fa fa-envelope-open"></span>
-                                <a href="mailto:example@email.com" class="text-white">info@example.com</a>
-                            </li>
-                            <li class="mt-3">
-                                <span class="fa fa-phone"></span>
-                                <p class="d-inline text-white">+456 123 7890</p>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
-            <!-- /footerv4-top -->
+            <!--/.container-->
         </div>
-    </div>
-    <!-- //footer -->
-    <div class="cpy-right bg-theme">
-        <p>© 2018 Cookie. All rights reserved | Design by
-            <a href="http://w3layouts.com"> W3layouts.</a>
-        </p>
-    </div>
-    <!-- login  -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content bg-theme1">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Signin</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+        <!--/.top-bar-->
+
+        <nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </button>
+                    <a class="navbar-brand" href="index.html"><img src="<?php echo base_url('asset/');?>images/logo.png" alt="logo"></a>
                 </div>
-                <div class="modal-body">
-                    <form action="#" method="post" class="p-3">
-                        <div class="form-group">
-                            <label for="recipient-name" class="col-form-label">Username</label>
-                            <input type="text" class="form-control" placeholder="" name=" name" id="recipient-name"
-                                required="">
-                        </div>
-                        <div class="form-group">
-                            <label for="password" class="col-form-label">Password</label>
-                            <input type="password" class="form-control" placeholder="" name="Password" id="password"
-                                required="">
-                        </div>
-                        <div class="right-w3l">
-                            <input type="submit" class="form-control" value="Login">
-                        </div>
-                        <div class="row sub-w3l my-3">
-                            <div class="col sub-w3_pvt">
-                                <input type="checkbox" id="brand1" value="">
-                                <label for="brand1" class="text-white">
-                                    <span></span>Remember me?</label>
+
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="blog-item.html">Blog Single</a></li>
+                                <li><a href="pricing.html">Pricing</a></li>
+                                <li><a href="404.html">404</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact-us.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--/.container-->
+        </nav>
+        <!--/nav-->
+
+    </header>
+    <!--/header-->
+
+    <section id="main-slider" class="no-margin">
+        <div class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slider" data-slide-to="1"></li>
+                <li data-target="#main-slider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+
+                <div class="item active" style="background-image: url(<?php echo base_url('asset/');?>images/slider/bg1.jpg)">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">Help Finding Information Online</h1>
+                                    <div class="animation animated-item-2">
+                                        Every new computer that’s brought home from the store has an operating system installed onto it.
+                                    </div>
+                                    <a class="btn-slide animation animated-item-3" href="#">Learn More</a>
+                                    <a class="btn-slide white animation animated-item-3" href="#">Get Started</a>
+                                </div>
                             </div>
-                            <div class="col forgot-w3l text-right">
-                                <a href="#" class="text-white">Forgot Password?</a>
+
+                        </div>
+                    </div>
+                </div>
+                <!--/.item-->
+
+                <div class="item" style="background-image: url(<?php echo base_url('asset/');?>images/slider/bg2.jpg)">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">Help Finding Information Online</h1>
+                                    <div class="animation animated-item-2">
+                                        Every new computer that’s brought home from the store has an operating system installed onto it.
+                                    </div>
+                                    <a class="btn-slide white animation animated-item-3" href="#">Learn More</a>
+                                    <a class="btn-slide animation animated-item-3" href="#">Get Started</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!--/.item-->
+
+            </div>
+            <!--/.carousel-inner-->
+        </div>
+        <!--/.carousel-->
+        <a class="prev hidden-xs hidden-sm" href="#main-slider" data-slide="prev">
+            <i class="fa fa-chevron-left"></i>
+        </a>
+        <a class="next hidden-xs hidden-sm" href="#main-slider" data-slide="next">
+            <i class="fa fa-chevron-right"></i>
+        </a>
+    </section>
+    <!--/#main-slider-->
+
+    <section id="feature">
+        <div class="container">
+            <div class="center fadeInDown">
+                <h2>Features</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+
+            <div class="row">
+                <div class="features">
+                    <div class="col-md-3 col-sm-4 fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <div class="icon">
+                                <i class="fa fa-rocket"></i>
+                            </div>
+                            <h2>Fast</h2>
+                            <p>Having a baby can be a nerve wracking experience for new</p>
+                        </div>
+                    </div>
+                    <!--/.col-md-3-->
+                    <div class="col-md-3 col-sm-4 fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <div class="icon">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <h2>Easy</h2>
+                            <p>If you are looking for a new way to promote your business that</p>
+                        </div>
+                    </div>
+                    <!--/.col-md-3-->
+                    <div class="col-md-3 col-sm-4 fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <div class="icon">
+                                <i class="fa fa-bullhorn"></i>
+                            </div>
+                            <h2>Cheap</h2>
+                            <p>Okay, you’ve decided you want to make money with Affiliate</p>
+                        </div>
+                    </div>
+                    <!--/.col-md-3-->
+                    <div class="col-md-3 col-sm-4 fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <div class="icon">
+                                <i class="fa fa-arrows"></i>
+                            </div>
+                            <h2>Editable</h2>
+                            <p>A Pocket PC is a handheld computer, which features many</p>
+                        </div>
+                    </div>
+                    <!--/.col-md-3-->
+                </div>
+                <!--/.services-->
+            </div>
+            <!--/.row-->
+        </div>
+        <!--/.container-->
+    </section>
+    <!--/#feature-->
+
+    <section id="recent-works">
+        <div class="container">
+            <div class="center fadeInDown">
+                <h2>Recent Works</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 single-work">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="<?php echo base_url('asset/');?>images/portfolio/item-1.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <a class="preview" href="<?php echo base_url('asset/');?>images/portfolio/item-1.png" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
                             </div>
                         </div>
-                        <p class="text-center dont-do text-white">Don't have an account?
-                            <a href="#" data-toggle="modal" data-target="#exampleModal1" class="text-white">
-                                Register Now</a>
+                    </div>
+                </div>
 
-                        </p>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- //login -->
-    <!-- register -->
-    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content bg-theme1">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel1">Register</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form action="#" method="post" class="p-3">
-                        <div class="form-group">
-                            <label for="recipient-name" class="col-form-label">Username</label>
-                            <input type="text" class="form-control" placeholder="" name=" name" id="recipient-rname"
-                                required="">
-                        </div>
-                        <div class="form-group">
-                            <label for="recipient-email" class="col-form-label">Email</label>
-                            <input type="email" class="form-control" placeholder="" name="Email" id="recipient-email"
-                                required="">
-                        </div>
-                        <div class="form-group">
-                            <label for="password1" class="col-form-label">Password</label>
-                            <input type="password" class="form-control" placeholder="" name="Password" id="password1"
-                                required="">
-                        </div>
-                        <div class="form-group">
-                            <label for="password2" class="col-form-label">Confirm Password</label>
-                            <input type="password" class="form-control" placeholder="" name="Confirm Password" id="password2"
-                                required="">
-                        </div>
-                        <div class="sub-w3l">
-                            <div class="sub-w3_pvt">
-                                <input type="checkbox" id="brand2" value="">
-                                <label for="brand2" class="mb-3 text-white">
-                                    <span></span>I Accept to the Terms & Conditions</label>
+                <div class="col-xs-12 col-sm-6 col-md-4 single-work">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="<?php echo base_url('asset/');?>images/portfolio/item-2.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <a class="preview" href="<?php echo base_url('asset/');?>images/portfolio/item-2.png" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
                             </div>
                         </div>
-                        <div class="right-w3l">
-                            <input type="submit" class="form-control" value="Register">
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 single-work">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="<?php echo base_url('asset/');?>images/portfolio/item-3.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <a class="preview" href="<?php echo base_url('asset/');?>images/portfolio/item-3.png" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                            </div>
                         </div>
-                    </form>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 single-work">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="<?php echo base_url('asset/');?>images/portfolio/item-4.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <a class="preview" href="<?php echo base_url('asset/');?>images/portfolio/item-4.png" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 single-work">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="<?php echo base_url('asset/');?>images/portfolio/item-5.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <a class="preview" href="<?php echo base_url('asset/');?>images/portfolio/item-5.png" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 single-work">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="<?php echo base_url('asset/');?>images/portfolio/item-6.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <a class="preview" href="<?php echo base_url('asset/');?>images/portfolio/item-6.png" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/.row-->
+            <div class="clearfix text-center">
+                <br>
+                <br>
+                <a href="#" class="btn btn-primary">Show More</a>
+            </div>
+        </div>
+        <!--/.container-->
+    </section>
+    <!--/#recent-works-->
+
+    <section id="services" class="service-item">
+        <div class="container">
+            <div class="center fadeInDown">
+                <h2>Our Service</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap fadeInDown">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="<?php echo base_url('asset/');?>images/services/ux.svg">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">UI/UX Design</h3>
+                            <p>Hydroderm is the highly desired anti-aging cream on</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap fadeInDown">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="<?php echo base_url('asset/');?>images/services/web.svg">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Web Design</h3>
+                            <p>Hydroderm is the highly desired anti-aging cream on</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap fadeInDown">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="<?php echo base_url('asset/');?>images/services/motion.svg">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Motion Graphics</h3>
+                            <p>Hydroderm is the highly desired anti-aging cream on</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap fadeInDown">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="<?php echo base_url('asset/');?>images/services/mobile-ui.svg">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Mobile UI/UX</h3>
+                            <p>Hydroderm is the highly desired anti-aging cream on</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap fadeInDown">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="<?php echo base_url('asset/');?>images/services/web-app.svg">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Web Applications</h3>
+                            <p>Hydroderm is the highly desired anti-aging cream on</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap fadeInDown">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="<?php echo base_url('asset/');?>images/services/mobile-ui.svg">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">SEO Marketing</h3>
+                            <p>Hydroderm is the highly desired anti-aging cream on</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--/.row-->
+        </div>
+        <!--/.container-->
+    </section>
+    <!--/#services-->
+
+    <section id="middle" class="skill-area" style="background-image: url(<?php echo base_url('asset/');?>images/skill-bg.png)">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 fadeInDown">
+                    <div class="skill">
+                        <h2>Our Skills</h2>
+                        <p>All users on MySpace will know that there are millions of people out there. Every <br> day besides so many people joining this community.</p>
+                    </div>
+                </div>
+                <!--/.col-sm-6-->
+
+                <div class="col-sm-6">
+                    <div class="progress-wrap">
+                        <h3>Graphic Design</h3>
+                        <div class="progress">
+                            <div class="progress-bar  color1" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                                <span class="bar-width">85%</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="progress-wrap">
+                        <h3>HTML</h3>
+                        <div class="progress">
+                            <div class="progress-bar color2" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+                                <span class="bar-width">95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="progress-wrap">
+                        <h3>CSS</h3>
+                        <div class="progress">
+                            <div class="progress-bar color3" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                <span class="bar-width">80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="progress-wrap">
+                        <h3>Wordpress</h3>
+                        <div class="progress">
+                            <div class="progress-bar color4" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                <span class="bar-width">90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--/.row-->
+        </div>
+        <!--/.container-->
+    </section>
+    <!--/#middle-->
+
+    <section id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-10 col-sm-offset-1 fadeInDown">
+                    <div class="tab-wrap">
+                        <div class="media">
+                            <div class="parrent pull-left">
+                                <ul class="nav nav-tabs nav-stacked">
+                                    <li class=""><a href="#tab1" data-toggle="tab" class="analistic-01">Responsive Web Design</a></li>
+                                    <li class="active"><a href="#tab2" data-toggle="tab" class="analistic-02">Premium Plugin Included</a></li>
+                                    <li class=""><a href="#tab3" data-toggle="tab" class="tehnical">Predefine Layout</a></li>
+                                    <li class=""><a href="#tab4" data-toggle="tab" class="tehnical">Our Philosopy</a></li>
+                                    <li class=""><a href="#tab5" data-toggle="tab" class="tehnical">What We Do?</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="parrent media-body">
+                                <div class="tab-content">
+                                    <div class="tab-pane fade" id="tab1">
+                                        <div class="media">
+                                            <div class="pull-left">
+                                                <img class="img-responsive" src="<?php echo base_url('asset/');?>images/tab2.png">
+                                            </div>
+                                            <div class="media-body">
+                                                <h2>Adipisicing elit</h2>
+                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane fade active in text-right" id="tab2">
+                                        <div class="video-box">
+                                            <img src="images/tab-video-bg.png" alt="video">
+                                            <a class="video-icon" href="http://www.youtube.com/watch?v=cH6kxtzovew" rel="prettyPhoto"><i class="fa fa-play"></i></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="tab3">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="tab4">
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words</p>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="tab5">
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,</p>
+                                    </div>
+                                </div>
+                                <!--/.tab-content-->
+                            </div>
+                            <!--/.media-body-->
+                        </div>
+                        <!--/.media-->
+                    </div>
+                    <!--/.tab-wrap-->
+                </div>
+                <!--/.col-sm-6-->
+
+            </div>
+            <!--/.row-->
+        </div>
+        <!--/.container-->
+    </section>
+    <!--/#content-->
+
+    <section id="testimonial">
+        <div class="container">
+            <div class="center fadeInDown">
+                <h2>Testimonials</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+            <div class="testimonial-slider owl-carousel">
+                <div class="single-slide">
+                    <div class="slide-img">
+                        <img src="<?php echo base_url('asset/');?>images/client1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <img src="<?php echo base_url('asset/');?>images/review.png" alt="">
+                        <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+                        <h4>- Charlotte Daniels</h4>
+                    </div>
+                </div>
+                <div class="single-slide">
+                    <div class="slide-img">
+                        <img src="<?php echo base_url('asset/');?>images/client2.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <img src="<?php echo base_url('asset/');?>images/review.png" alt="">
+                        <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+                        <h4>- Charlotte Daniels</h4>
+                    </div>
+                </div>
+                <div class="single-slide">
+                    <div class="slide-img">
+                        <img src="<?php echo base_url('asset/');?>images/client3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <img src="<?php echo base_url('asset/');?>images/review.png" alt="">
+                        <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+                        <h4>- Charlotte Daniels</h4>
+                    </div>
+                </div>
+                <div class="single-slide">
+                    <div class="slide-img">
+                        <img src="<?php echo base_url('asset/');?>images/client2.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <img src="<?php echo base_url('asset/');?>images/review.png" alt="">
+                        <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+                        <h4>- Charlotte Daniels</h4>
+                    </div>
+                </div>
+                <div class="single-slide">
+                    <div class="slide-img">
+                        <img src="<?php echo base_url('asset/');?>images/client1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <img src="<?php echo base_url('asset/');?>images/review.png" alt="">
+                        <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+                        <h4>- Charlotte Daniels</h4>
+                    </div>
+                </div>
+                <div class="single-slide">
+                    <div class="slide-img">
+                        <img src="<?php echo base_url('asset/');?>images/client3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <img src="<?php echo base_url('asset/');?>images/review.png" alt="">
+                        <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+                        <h4>- Charlotte Daniels</h4>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- // register -->
-    <!-- blog modal1 -->
-    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header bg-theme1">
-                    <h5 class="modal-title" id="exampleModalLabel2">Cras ultricies ligula sed magna dictum porta
-                        auris
-                        blandita.</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+    </section>
+
+    <section id="partner">
+        <div class="container">
+            <div class="center fadeInDown">
+                <h2>Our Partners</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+
+            <div class="partners">
+                <ul>
+                    <li>
+                        <a href="#"><img class="img-responsive fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="images/partners/brand-1.png"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="img-responsive fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="images/partners/brand-2.png"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="img-responsive fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="images/partners/brand-3.png"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="img-responsive fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="images/partners/brand-4.png"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="img-responsive fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="images/partners/brand-5.png"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--/.container-->
+    </section>
+    <!--/#partner-->
+
+
+    <section id="bottom">
+        <div class="container fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="row">
+                <div class="col-md-2">
+                    <a href="#" class="footer-logo">
+                        <img src="images/logo-black.png" alt="logo">
+                    </a>
                 </div>
-                <div class="modal-body text-center">
-                    <img src="images/p1.jpg" class="img-fluid" alt=""/>
-                    <p class="text-left my-4">
-                        Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur non nulla sit amet
-                        nisl
-                        tempus convallis quis ac
-                        lectus. Cras ultricies ligula sed magna dictum porta.
-                    </p>
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="widget">
+                                <h3>Company</h3>
+                                <ul>
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">We are hiring</a></li>
+                                    <li><a href="#">Meet the team</a></li>
+                                    <li><a href="#">Copyright</a></li>
+                                    <li><a href="#">Terms of use</a></li>
+                                    <li><a href="#">Privacy policy</a></li>
+                                    <li><a href="#">Contact us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--/.col-md-3-->
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="widget">
+                                <h3>Support</h3>
+                                <ul>
+                                    <li><a href="#">Faq</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Forum</a></li>
+                                    <li><a href="#">Documentation</a></li>
+                                    <li><a href="#">Refund policy</a></li>
+                                    <li><a href="#">Ticket system</a></li>
+                                    <li><a href="#">Billing system</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--/.col-md-3-->
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="widget">
+                                <h3>Developers</h3>
+                                <ul>
+                                    <li><a href="#">Web Development</a></li>
+                                    <li><a href="#">SEO Marketing</a></li>
+                                    <li><a href="#">Theme</a></li>
+                                    <li><a href="#">Development</a></li>
+                                    <li><a href="#">Email Marketing</a></li>
+                                    <li><a href="#">Plugin Development</a></li>
+                                    <li><a href="#">Article Writing</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--/.col-md-3-->
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="widget">
+                                <h3>Our Partners</h3>
+                                <ul>
+                                    <li><a href="#">Adipisicing Elit</a></li>
+                                    <li><a href="#">Eiusmod</a></li>
+                                    <li><a href="#">Tempor</a></li>
+                                    <li><a href="#">Veniam</a></li>
+                                    <li><a href="#">Exercitation</a></li>
+                                    <li><a href="#">Ullamco</a></li>
+                                    <li><a href="#">Laboris</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--/.col-md-3-->
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!--/#bottom-->
+
+    <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. All Rights Reserved.
+                </div>
+                <div class="col-sm-6">
+                    <ul class="pull-right">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Faq</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- //blog modal1 -->
-    <!-- blog modal2 -->
-    <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel3"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header bg-theme1">
-                    <h5 class="modal-title" id="exampleModalLabel3">Cras ultricies ligula sed magna dictum porta
-                        auris
-                        blandita.</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body text-center">
-                    <img src="images/p2.jpg" class="img-fluid" alt=""/>
-                    <p class="text-left my-4">
-                        Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur non nulla sit amet
-                        nisl
-                        tempus convallis quis ac
-                        lectus. Cras ultricies ligula sed magna dictum porta.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- //blog modal2 -->
-    <!-- blog modal3 -->
-    <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel4"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header bg-theme1">
-                    <h5 class="modal-title" id="exampleModalLabel4">Cras ultricies ligula sed magna dictum porta
-                        auris
-                        blandita.</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body text-center">
-                    <img src="images/p3.jpg" class="img-fluid" alt=""/>
-                    <p class="text-left my-4">
-                        Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur non nulla sit amet
-                        nisl
-                        tempus convallis quis ac
-                        lectus. Cras ultricies ligula sed magna dictum porta.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- //blog modal3-->
-    <!-- js -->
-    <script src="<?php echo base_url('asset/');?>js/jquery-2.2.3.min.js"></script>
-    <!-- //js -->
-    <!-- script for password match -->
-    <script>
-        window.onload = function () {
-            document.getElementById("password1").onchange = validatePassword;
-            document.getElementById("password2").onchange = validatePassword;
-        }
+    </footer>
+    <!--/#footer-->
 
-        function validatePassword() {
-            var pass2 = document.getElementById("password2").value;
-            var pass1 = document.getElementById("password1").value;
-            if (pass1 != pass2)
-                document.getElementById("password2").setCustomValidity("Passwords Don't Match");
-            else
-                document.getElementById("password2").setCustomValidity('');
-            //empty string means no validation error
-        }
-    </script>
-    <!-- script for password match -->
-    <!-- Banner  Responsiveslides -->
-    <script src="<?php echo base_url('asset/');?>js/responsiveslides.min.js"></script>
-    <script>
-        // You can also use"$(window).load(function() {"
-        $(function () {
-            // Slideshow 4
-            $("#slider3").responsiveSlides({
-                auto:true,
-                pager: true,
-                nav: false,
-                speed: 500,
-                namespace: "callbacks",
-                before: function () {
-                    $('.events').append("<li>before event fired.</li>");
-                },
-                after: function () {
-                    $('.events').append("<li>after event fired.</li>");
-                }
-            });
-
-        });
-    </script>
-    <!-- //Banner  Responsiveslides -->
-    <script src='<?php echo base_url('asset/');?>js/aos.js'></script>
-    <script>
-        AOS.init({
-            easing: 'ease-out-back',
-            duration: 1000
-        });
-    </script>
-
-    <!-- start-smooth-scrolling -->
-    <script src="<?php echo base_url('asset/');?>js/move-top.js"></script>
-    <script src="<?php echo base_url('asset/');?>js/easing.js"></script>
-    <script>
-        jQuery(document).ready(function ($) {
-            $(".scroll").click(function (event) {
-                event.preventDefault();
-
-                $('html,body').animate({
-                    scrollTop: $(this.hash).offset().top
-                }, 1000);
-            });
-        });
-    </script>
-    <!-- //end-smooth-scrolling -->
-    <!-- smooth-scrolling-of-move-up -->
-    <script>
-        $(document).ready(function () {
-            /*
-            var defaults = {
-                containerID: 'toTop', // fading element id
-                containerHoverID: 'toTopHover', // fading element hover id
-                scrollSpeed: 1200,
-                easingType: 'linear' 
-            };
-            */
-            $().UItoTop({
-                easingType: 'easeOutQuart'
-            });
-
-        });
-    </script>
-    <script src="<?php echo base_url('asset/');?>js/SmoothScroll.min.js"></script>
-    <!-- //smooth-scrolling-of-move-up -->
-    <script src="<?php echo base_url('asset/');?>js/counter.js"></script>
-    <!-- //stats -->
-    <!-- Bootstrap core JavaScript
-================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="<?php echo base_url('asset/');?>js/bootstrap.js"></script>
+    <script src="<?php echo base_url('asset/');?>js/jquery.js"></script>
+    <script src="<?php echo base_url('asset/');?>js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url('asset/');?>js/jquery.prettyPhoto.js"></script>
+    <script src="<?php echo base_url('asset/');?>js/owl.carousel.min.js"></script>
+    <script src="<?php echo base_url('asset/');?>js/jquery.isotope.min.js"></script>
+    <script src="<?php echo base_url('asset/');?>js/main.js"></script>
 </body>
 
 </html>
