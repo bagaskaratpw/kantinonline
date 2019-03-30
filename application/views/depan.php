@@ -91,7 +91,7 @@
                         <li class="nav-item dropdown mr-lg-3 mt-lg-0 mt-3" data-aos="zoom-in">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">
-                                Dropdown
+                                Others
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item scroll" href="#team">team</a>
@@ -116,8 +116,8 @@
                     <div class="container">
                         <div class="banner-text">
                             <div class="slider-info">
-                                <span  data-aos="zoom-in">handmade goodness!</span>
-                                <h3  data-aos="zoom-in">taste the best butter cookies</h3>
+                                <span  data-aos="zoom-in">Tidak Perlu Antri</span>
+                                <h3  data-aos="zoom-in">GO STAND memudahkan siswa untuk antri di kantin</h3>
                                 <a  data-aos="zoom-in" class="btn btn-primary mt-4 w3_pvt-link-bnr scroll bg-theme1" href="#about" role="button">View
                                     More</a>
                             </div>
@@ -128,10 +128,8 @@
                     <div class="container">
                         <div class="banner-text">
                             <div class="slider-info">
-                                <span data-aos="zoom-in">handmade goodness!</span>
-                                <h3 data-aos="zoom-in">taste the best butter cookies</h3>
-                                <a data-aos="zoom-in" class="btn btn-primary mt-4 w3_pvt-link-bnr scroll bg-theme1" href="#about" role="button">View
-                                    More</a>
+                                <span data-aos="zoom-in">Cepat</span>
+                                <h3 data-aos="zoom-in">Buka aplikasi langusng terdaftar</h3>
                             </div>
                         </div>
                     </div>
@@ -144,15 +142,11 @@
     <div class="about-w3sec py-md-5" id="about">
         <div class="container py-sm-5 py-4">
             <div class="title-section pb-4"  data-aos="fade-up">
-                <h3 class="main-title-w3_pvt">multipurpose food theme</h3>
+                <h3 class="main-title-w3_pvt">GO STAND</h3>
                 <span class="title-line">
                 </span>
-                <p class="about-txt text-center">Lorem ipsum dolor sit amet,sed diam nonumy eirmod tempor invidunt ut
-                    labore et
-                    dolore magna
-                    aliquyam erat, At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet,
-                    no sea takimata sanctus est Lorem ipsum dolor sit amet. Stet clita kasd gubergren, no sea takimata
-                    sanctus est.</p>
+                <p class="about-txt text-center">GO STAND merupakan aplikasi untuk memudahkan siswa dalam antri di kantin. siswa tidak perlu
+                berdesak-desakan di kantin. cukup membuka aplikasi GO STAND dan memilih apa yang diinginkan sudah terdaftar dan tinggal datang ke kantin.</p>
             </div>
 
             <div class="space-sec1 text-center position-relative">
@@ -161,7 +155,7 @@
                         <div class="about-icon-w3">
                             <span class="fa fa-life-ring " aria-hidden="true"></span>
                         </div>
-                        <h3>dream Cookies</h3>
+                        <h3>Cepat</h3>
                         <p>Rutrum congue donec leo eget malesuada. Cras ultriciet malesuaes ligula sed magna dictum
                             porta.</p>
                     </div>
@@ -169,7 +163,7 @@
                         <div class="about-icon-w3">
                             <span class="fa fa-adjust " aria-hidden="true"></span>
                         </div>
-                        <h3>butter Cookies</h3>
+                        <h3>Mudah</h3>
                         <p>Rutrum congue donec leo eget malesuada. Cras ultriciet malesuaes ligula sed magna dictum
                             porta.</p>
                     </div>
@@ -177,7 +171,7 @@
                         <div class="about-icon-w3">
                             <span class="fa fa-bullseye " aria-hidden="true"></span>
                         </div>
-                        <h3>pecan Cookies</h3>
+                        <h3>Praktis</h3>
                         <p>Rutrum congue donec leo eget malesuada. Cras ultriciet malesuaes ligula sed magna dictum
                             porta.</p>
                     </div>
@@ -568,17 +562,13 @@
             <div class="row py-lg-5 py-4">
                 <div class="col-lg-5" data-aos="zoom-in">
                     <div class="w3_pvt-contact-top">
-                        <h4>get in touch </h4>
-                        <p>1234k Avenue,Block-4,Canada.</p>
+                        <h4>Universitas Dian Nuswantoro</h4>
+                        <p>Jalan Imam Bonjol, Semarang</p>
                     </div>
                     <hr>
-                    <p>Donec mi nulla, auctor nec sem a, ornare auctor mi. Sed mi tortor, commodo a felis in,
-                        fringilla
-                        tincidunt
-                        nulla. Vestibulum volutpat non eros ut vulpuuctor nec sem </p>
                     <!-- map -->
                     <div class="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9503398796587!2d-73.9940307!3d40.719109700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a27e2f24131%3A0x64ffc98d24069f02!2sCANADA!5e0!3m2!1sen!2sin!4v1441710758555"
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1980.115860936788!2d110.40820252576074!3d-6.981959599274716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708b4ec52229d7%3A0xc791d6abc9236c7!2sUniversitas+Dian+Nuswantoro!5e0!3m2!1sid!2sid!4v1553961011789!5m2!1sid!2sid"
                             allowfullscreen></iframe>
                     </div>
                     <!--// map-->
@@ -932,7 +922,7 @@
     </script>
     <!-- script for password match -->
     <!-- Banner  Responsiveslides -->
-    <script src="js/responsiveslides.min.js"></script>
+    <script src="<?php echo base_url('asset/');?>js/responsiveslides.min.js"></script>
     <script>
         // You can also use"$(window).load(function() {"
         $(function () {
@@ -994,14 +984,14 @@
 
         });
     </script>
-    <script src="js/SmoothScroll.min.js"></script>
+    <script src="<?php echo base_url('asset/');?>js/SmoothScroll.min.js"></script>
     <!-- //smooth-scrolling-of-move-up -->
-    <script src="js/counter.js"></script>
+    <script src="<?php echo base_url('asset/');?>js/counter.js"></script>
     <!-- //stats -->
     <!-- Bootstrap core JavaScript
 ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/bootstrap.js"></script>
+    <script src="<?php echo base_url('asset/');?>js/bootstrap.js"></script>
 </body>
 
 </html>
