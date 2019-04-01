@@ -1,4 +1,4 @@
-<?php echo base_url('asset/');?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Home | Corlate</title>
+    <title>Home | GO STAND</title>
 
     <!-- core CSS -->
     <link href="<?php echo base_url('asset/');?>css/bootstrap.min.css" rel="stylesheet">
@@ -21,7 +21,7 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="shortcut icon" href="<?php echo base_url('asset/');?>images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url('asset/');?>images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url('asset/');?>images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url('asset/');?>images/ico/apple-touch-icon-72-precomposed.png">
@@ -30,39 +30,6 @@
 <!--/head-->
 
 <body class="homepage">
-
-    <header id="header">
-        <div class="top-bar">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-xs-12">
-                        <div class="top-number">
-                            <p><i class="fa fa-phone-square"></i> +0123 456 70 90</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-xs-12">
-                        <div class="social">
-                            <ul class="social-share">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                            </ul>
-                            <div class="search">
-                                <form role="form">
-                                    <input type="text" class="search-form" autocomplete="off" placeholder="Search">
-                                    <i class="fa fa-search"></i>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--/.container-->
-        </div>
-        <!--/.top-bar-->
-
         <nav class="navbar navbar-inverse" role="banner">
             <div class="container">
                 <div class="navbar-header">
@@ -77,20 +44,10 @@
 
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="about-us.html">About Us</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="blog-item.html">Blog Single</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
-                                <li><a href="404.html">404</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact-us.html">Contact</a></li>
+                        <li class="active"><a href="<?php echo base_url('user/index');?>">Home</a></li>
+                        <li><a href="<?php echo base_url('user/about');?>">About Us</a></li>
+                        <li><a href="<?php echo base_url('user/daftar_blog');?>">Blog</a></li>
+                        <li><a href="<?php echo base_url('user/contact');?>">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -393,131 +350,7 @@
     </section>
     <!--/#services-->
 
-    <section id="middle" class="skill-area" style="background-image: url(<?php echo base_url('asset/');?>images/skill-bg.png)">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 fadeInDown">
-                    <div class="skill">
-                        <h2>Our Skills</h2>
-                        <p>All users on MySpace will know that there are millions of people out there. Every <br> day besides so many people joining this community.</p>
-                    </div>
-                </div>
-                <!--/.col-sm-6-->
-
-                <div class="col-sm-6">
-                    <div class="progress-wrap">
-                        <h3>Graphic Design</h3>
-                        <div class="progress">
-                            <div class="progress-bar  color1" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
-                                <span class="bar-width">85%</span>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="progress-wrap">
-                        <h3>HTML</h3>
-                        <div class="progress">
-                            <div class="progress-bar color2" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
-                                <span class="bar-width">95%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6">
-                    <div class="progress-wrap">
-                        <h3>CSS</h3>
-                        <div class="progress">
-                            <div class="progress-bar color3" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                                <span class="bar-width">80%</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="progress-wrap">
-                        <h3>Wordpress</h3>
-                        <div class="progress">
-                            <div class="progress-bar color4" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-                                <span class="bar-width">90%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <!--/.row-->
-        </div>
-        <!--/.container-->
-    </section>
-    <!--/#middle-->
-
-    <section id="content">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-10 col-sm-offset-1 fadeInDown">
-                    <div class="tab-wrap">
-                        <div class="media">
-                            <div class="parrent pull-left">
-                                <ul class="nav nav-tabs nav-stacked">
-                                    <li class=""><a href="#tab1" data-toggle="tab" class="analistic-01">Responsive Web Design</a></li>
-                                    <li class="active"><a href="#tab2" data-toggle="tab" class="analistic-02">Premium Plugin Included</a></li>
-                                    <li class=""><a href="#tab3" data-toggle="tab" class="tehnical">Predefine Layout</a></li>
-                                    <li class=""><a href="#tab4" data-toggle="tab" class="tehnical">Our Philosopy</a></li>
-                                    <li class=""><a href="#tab5" data-toggle="tab" class="tehnical">What We Do?</a></li>
-                                </ul>
-                            </div>
-
-                            <div class="parrent media-body">
-                                <div class="tab-content">
-                                    <div class="tab-pane fade" id="tab1">
-                                        <div class="media">
-                                            <div class="pull-left">
-                                                <img class="img-responsive" src="<?php echo base_url('asset/');?>images/tab2.png">
-                                            </div>
-                                            <div class="media-body">
-                                                <h2>Adipisicing elit</h2>
-                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="tab-pane fade active in text-right" id="tab2">
-                                        <div class="video-box">
-                                            <img src="images/tab-video-bg.png" alt="video">
-                                            <a class="video-icon" href="http://www.youtube.com/watch?v=cH6kxtzovew" rel="prettyPhoto"><i class="fa fa-play"></i></a>
-                                        </div>
-                                    </div>
-
-                                    <div class="tab-pane fade" id="tab3">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
-                                    </div>
-
-                                    <div class="tab-pane fade" id="tab4">
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words</p>
-                                    </div>
-
-                                    <div class="tab-pane fade" id="tab5">
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,</p>
-                                    </div>
-                                </div>
-                                <!--/.tab-content-->
-                            </div>
-                            <!--/.media-body-->
-                        </div>
-                        <!--/.media-->
-                    </div>
-                    <!--/.tab-wrap-->
-                </div>
-                <!--/.col-sm-6-->
-
-            </div>
-            <!--/.row-->
-        </div>
-        <!--/.container-->
-    </section>
-    <!--/#content-->
-
+    
     <section id="testimonial">
         <div class="container">
             <div class="center fadeInDown">
@@ -599,19 +432,19 @@
             <div class="partners">
                 <ul>
                     <li>
-                        <a href="#"><img class="img-responsive fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="images/partners/brand-1.png"></a>
+                        <a href="#"><img class="img-responsive fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="<?php echo base_url('asset/');?>images/partners/brand-1.png"></a>
                     </li>
                     <li>
-                        <a href="#"><img class="img-responsive fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="images/partners/brand-2.png"></a>
+                        <a href="#"><img class="img-responsive fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="<?php echo base_url('asset/');?>images/partners/brand-2.png"></a>
                     </li>
                     <li>
-                        <a href="#"><img class="img-responsive fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="images/partners/brand-3.png"></a>
+                        <a href="#"><img class="img-responsive fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="<?php echo base_url('asset/');?>images/partners/brand-3.png"></a>
                     </li>
                     <li>
-                        <a href="#"><img class="img-responsive fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="images/partners/brand-4.png"></a>
+                        <a href="#"><img class="img-responsive fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="<?php echo base_url('asset/');?>images/partners/brand-4.png"></a>
                     </li>
                     <li>
-                        <a href="#"><img class="img-responsive fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="images/partners/brand-5.png"></a>
+                        <a href="#"><img class="img-responsive fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="<?php echo base_url('asset/');?>images/partners/brand-5.png"></a>
                     </li>
                 </ul>
             </div>
@@ -621,88 +454,6 @@
     <!--/#partner-->
 
 
-    <section id="bottom">
-        <div class="container fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-            <div class="row">
-                <div class="col-md-2">
-                    <a href="#" class="footer-logo">
-                        <img src="images/logo-black.png" alt="logo">
-                    </a>
-                </div>
-                <div class="col-md-10">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="widget">
-                                <h3>Company</h3>
-                                <ul>
-                                    <li><a href="#">About us</a></li>
-                                    <li><a href="#">We are hiring</a></li>
-                                    <li><a href="#">Meet the team</a></li>
-                                    <li><a href="#">Copyright</a></li>
-                                    <li><a href="#">Terms of use</a></li>
-                                    <li><a href="#">Privacy policy</a></li>
-                                    <li><a href="#">Contact us</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--/.col-md-3-->
-
-                        <div class="col-md-3 col-sm-6">
-                            <div class="widget">
-                                <h3>Support</h3>
-                                <ul>
-                                    <li><a href="#">Faq</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Forum</a></li>
-                                    <li><a href="#">Documentation</a></li>
-                                    <li><a href="#">Refund policy</a></li>
-                                    <li><a href="#">Ticket system</a></li>
-                                    <li><a href="#">Billing system</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--/.col-md-3-->
-
-                        <div class="col-md-3 col-sm-6">
-                            <div class="widget">
-                                <h3>Developers</h3>
-                                <ul>
-                                    <li><a href="#">Web Development</a></li>
-                                    <li><a href="#">SEO Marketing</a></li>
-                                    <li><a href="#">Theme</a></li>
-                                    <li><a href="#">Development</a></li>
-                                    <li><a href="#">Email Marketing</a></li>
-                                    <li><a href="#">Plugin Development</a></li>
-                                    <li><a href="#">Article Writing</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--/.col-md-3-->
-
-                        <div class="col-md-3 col-sm-6">
-                            <div class="widget">
-                                <h3>Our Partners</h3>
-                                <ul>
-                                    <li><a href="#">Adipisicing Elit</a></li>
-                                    <li><a href="#">Eiusmod</a></li>
-                                    <li><a href="#">Tempor</a></li>
-                                    <li><a href="#">Veniam</a></li>
-                                    <li><a href="#">Exercitation</a></li>
-                                    <li><a href="#">Ullamco</a></li>
-                                    <li><a href="#">Laboris</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--/.col-md-3-->
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-    <!--/#bottom-->
-
     <footer id="footer" class="midnight-blue">
         <div class="container">
             <div class="row">
@@ -711,10 +462,10 @@
                 </div>
                 <div class="col-sm-6">
                     <ul class="pull-right">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Faq</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="<?php echo base_url('user/index');?>">Home</a></li>
+                        <li><a href="<?php echo base_url('user/about');?>">About Us</a></li>
+                        <li><a href="<?php echo base_url('user/datar_blog');?>">Blog</a></li>
+                        <li><a href="<?php echo base_url('user/contact');?>">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
