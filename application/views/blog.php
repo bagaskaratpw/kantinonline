@@ -39,7 +39,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="<?php echo base_url('asset/');?>images/logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.html"><img style="witdh: 150px" src="<?php echo base_url('asset/');?>images/MODEL3.png" alt="logo"></a>
                 </div>
 
                 <div class="collapse navbar-collapse navbar-right">
