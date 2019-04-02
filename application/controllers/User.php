@@ -5,22 +5,22 @@ class User extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('depan');
+		$this->load->view('user/depan');
 	}
 	public function about()
 	{
-		$this->load->view('about');
+		$this->load->view('user/about');
 	}
 	public function contact ()
 	{
-		$this->load->view('contact');
+		$this->load->view('user/contact');
 	}
 	public function daftar_blog()
 	{
-		$this->load->view('daftar_blog');
+		$this->load->view('user/daftar_blog');
 	}
 	public function blog()
 	{
-		$this->load->view('blog');
+		$this->load->view('user/blog');
 	}
 }
