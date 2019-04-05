@@ -60,11 +60,11 @@
 
     <section id="main-slider" class="no-margin">
         <div class="carousel slide">
-            <ol class="carousel-indicators">
+        <!--    <ol class="carousel-indicators">
                 <li data-target="#main-slider" data-slide-to="0" class="active"></li>
                 <li data-target="#main-slider" data-slide-to="1"></li>
                 <li data-target="#main-slider" data-slide-to="2"></li>
-            </ol>
+            </ol> -->
             <div class="carousel-inner">
 
                 <div class="item active" style="background-image: url(<?php echo base_url('asset/');?>images/slider/bg1.jpg)">
@@ -72,9 +72,9 @@
                         <div class="row">
                             <div class="col-md-7">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Help Finding Information Online</h1>
+                                    <h1 class="animation animated-item-1">GO STAND</h1>
                                     <div class="animation animated-item-2">
-                                        Every new computer that’s brought home from the store has an operating system installed onto it.
+                                        Belanja Mudah, Tanpa Ribet, Tinggal KLIK Saja !
                                     </div>
                                     <a class="btn-slide animation animated-item-3" href="#">Learn More</a>
                                     <a class="btn-slide white animation animated-item-3" href="#">Get Started</a>
@@ -86,7 +86,7 @@
                 </div>
                 <!--/.item-->
 
-                <div class="item" style="background-image: url(<?php echo base_url('asset/');?>images/slider/bg2.jpg)">
+            <!--    <div class="item" style="background-image: url(<?php echo base_url('asset/');?>images/slider/bg2.jpg)">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-7">
@@ -98,7 +98,7 @@
                                     <a class="btn-slide white animation animated-item-3" href="#">Learn More</a>
                                     <a class="btn-slide animation animated-item-3" href="#">Get Started</a>
                                 </div>
-                            </div>
+                            </div> -->
 
 
                         </div>
@@ -110,12 +110,12 @@
             <!--/.carousel-inner-->
         </div>
         <!--/.carousel-->
-        <a class="prev hidden-xs hidden-sm" href="#main-slider" data-slide="prev">
+    <!--    <a class="prev hidden-xs hidden-sm" href="#main-slider" data-slide="prev">
             <i class="fa fa-chevron-left"></i>
         </a>
         <a class="next hidden-xs hidden-sm" href="#main-slider" data-slide="next">
             <i class="fa fa-chevron-right"></i>
-        </a>
+        </a> -->
     </section>
     <!--/#main-slider-->
 
@@ -128,37 +128,37 @@
 
             <div class="row">
                 <div class="features">
-                    <div class="col-md-3 col-sm-4 fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="col-md-4 col-sm-4 fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <div class="icon">
                                 <i class="fa fa-rocket"></i>
                             </div>
-                            <h2>Fast</h2>
-                            <p>Having a baby can be a nerve wracking experience for new</p>
+                            <h2>Cepat</h2>
+                            <p>Pesan dulu makanan dan minumanmu, nikmati kemudian !</p>
                         </div>
                     </div>
                     <!--/.col-md-3-->
-                    <div class="col-md-3 col-sm-4 fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="col-md-4 col-sm-4 fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <div class="icon">
                                 <i class="fa fa-check"></i>
                             </div>
-                            <h2>Easy</h2>
-                            <p>If you are looking for a new way to promote your business that</p>
+                            <h2>Mudah</h2>
+                            <p>Tinggal pesan secara online !</p>
                         </div>
                     </div>
                     <!--/.col-md-3-->
-                    <div class="col-md-3 col-sm-4 fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="col-md-4 col-sm-4 fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <div class="icon">
                                 <i class="fa fa-bullhorn"></i>
                             </div>
-                            <h2>Cheap</h2>
-                            <p>Okay, you’ve decided you want to make money with Affiliate</p>
+                            <h2>Murah</h2>
+                            <p>Promo menarik menanti Anda !</p>
                         </div>
                     </div>
-                    <!--/.col-md-3-->
-                    <div class="col-md-3 col-sm-4 fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                     <!--/.col-md-3-->
+                <!--    <div class="col-md-3 col-sm-4 fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <div class="icon">
                                 <i class="fa fa-arrows"></i>
@@ -166,8 +166,8 @@
                             <h2>Editable</h2>
                             <p>A Pocket PC is a handheld computer, which features many</p>
                         </div>
-                    </div>
-                    <!--/.col-md-3-->
+                    </div> -->
+                    <!--/.col-md-3--> 
                 </div>
                 <!--/.services-->
             </div>
@@ -262,7 +262,7 @@
     </section>
     <!--/#recent-works-->
 
-    <section id="services" class="service-item">
+<!--    <section id="services" class="service-item">
         <div class="container">
             <div class="center fadeInDown">
                 <h2>Our Service</h2>
@@ -343,13 +343,13 @@
                     </div>
                 </div>
 
-            </div>
+            </div> -->
             <!--/.row-->
-        </div>
+    <!--    </div> -->
         <!--/.container-->
-    </section>
+<!--    </section>  -->
     <!--/#services-->
-
+   
     
     <section id="testimonial">
         <div class="container">
@@ -364,7 +364,7 @@
                     </div>
                     <div class="content">
                         <img src="<?php echo base_url('asset/');?>images/review.png" alt="">
-                        <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+                        <p>Belanja disini sangat mudah dan menyenangkan</p>
                         <h4>- Charlotte Daniels</h4>
                     </div>
                 </div>
@@ -374,7 +374,7 @@
                     </div>
                     <div class="content">
                         <img src="<?php echo base_url('asset/');?>images/review.png" alt="">
-                        <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+                        <p>Belanja disini sangat mudah dan menyenangkan</p>
                         <h4>- Charlotte Daniels</h4>
                     </div>
                 </div>
@@ -384,7 +384,7 @@
                     </div>
                     <div class="content">
                         <img src="<?php echo base_url('asset/');?>images/review.png" alt="">
-                        <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+                        <p>Belanja disini sangat mudah dan menyenangkan</p>
                         <h4>- Charlotte Daniels</h4>
                     </div>
                 </div>
@@ -394,7 +394,7 @@
                     </div>
                     <div class="content">
                         <img src="<?php echo base_url('asset/');?>images/review.png" alt="">
-                        <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+                        <p>Belanja disini sangat mudah dan menyenangkan</p>
                         <h4>- Charlotte Daniels</h4>
                     </div>
                 </div>
@@ -404,7 +404,7 @@
                     </div>
                     <div class="content">
                         <img src="<?php echo base_url('asset/');?>images/review.png" alt="">
-                        <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+                        <p>Belanja disini sangat mudah dan menyenangkan</p>
                         <h4>- Charlotte Daniels</h4>
                     </div>
                 </div>
@@ -414,7 +414,7 @@
                     </div>
                     <div class="content">
                         <img src="<?php echo base_url('asset/');?>images/review.png" alt="">
-                        <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+                        <p>Belanja disini sangat mudah dan menyenangkan</p>
                         <h4>- Charlotte Daniels</h4>
                     </div>
                 </div>
