@@ -76,7 +76,6 @@
                                     <div class="animation animated-item-2">
                                         Belanja Mudah, Tanpa Ribet, Tinggal KLIK Saja !
                                     </div>
-                                    <a class="btn-slide animation animated-item-3" href="#">Learn More</a>
                                     <a class="btn-slide white animation animated-item-3" href="#">Get Started</a>
                                 </div>
                             </div>
@@ -98,12 +97,10 @@
                                     <a class="btn-slide white animation animated-item-3" href="#">Learn More</a>
                                     <a class="btn-slide animation animated-item-3" href="#">Get Started</a>
                                 </div>
-                            </div> -->
-
-
+                            </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!--/.item-->
 
             </div>
@@ -122,8 +119,7 @@
     <section id="feature">
         <div class="container">
             <div class="center fadeInDown">
-                <h2>Features</h2>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <h2>KENAPA GOSTAND ?</h2>
             </div>
 
             <div class="row">
