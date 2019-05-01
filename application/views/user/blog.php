@@ -2,58 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Home | Corlate</title>
-
-    <!-- core CSS -->
-    <link href="<?php echo base_url('asset/');?>css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?php echo base_url('asset/');?>css/font-awesome.min.css" rel="stylesheet">
-    <link href="<?php echo base_url('asset/');?>css/animate.min.css" rel="stylesheet">
-    <link href="<?php echo base_url('asset/');?>css/prettyPhoto.css" rel="stylesheet">
-    <link href="<?php echo base_url('asset/');?>css/owl.carousel.min.css" rel="stylesheet">
-    <link href="<?php echo base_url('asset/');?>css/icomoon.css" rel="stylesheet">
-    <link href="<?php echo base_url('asset/');?>css/main.css" rel="stylesheet">
-    <link href="<?php echo base_url('asset/');?>css/responsive.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
-    <link rel="shortcut icon" href="<?php echo base_url('asset/');?>images/ico/icon.png">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url('asset/');?>images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url('asset/');?>images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url('asset/');?>images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="<?php echo base_url('asset/');?>images/ico/apple-touch-icon-57-precomposed.png">
+    <title>Blog | GO STAND</title>
+    <?php $this->load->view('user/include/stylesheet'); ?>
 </head>
 <!--/head-->
 
 <body>
-        <nav class="navbar navbar-inverse" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img style="witdh: 150px" src="<?php echo base_url('asset/');?>images/MODEL3.png" alt="logo"></a>
-                </div>
-
-                <div class="collapse navbar-collapse navbar-right">
-                    <ul class="nav navbar-nav">
-                        <li><a href="<?php echo base_url('user/index');?>">Home</a></li>
-                        <li><a href="<?php echo base_url('user/about');?>">About Us</a></li>
-                        <li class="active"><a href="<?php echo base_url('user/daftar_blog');?>">Blog</a></li>
-                        <li><a href="<?php echo base_url('user/contact');?>">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-            <!--/.container-->
-        </nav>
-        <!--/nav-->
+    
+        <?php $this->load->view('user/include/header'); ?>
 
     </header>
     <!--/header-->
@@ -267,32 +223,10 @@
     </section>
     <!--/#blog-->
 
-    <footer id="footer" class="midnight-blue">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. All Rights Reserved.
-                </div>
-                <div class="col-sm-6">
-                    <ul class="pull-right">
-                        <li><a href="<?php echo base_url('user/index');?>">Home</a></li>
-                        <li><a href="<?php echo base_url('user/about');?>">About Us</a></li>
-                        <li><a href="<?php echo base_url('user/daftar_blog');?>">Blog</a></li>
-                        <li><a href="<?php echo base_url('user/contact');?>">Contact Us</a></li>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php $this->load->view('user/include/footer') ;?>
     <!--/#footer-->
 
-    <script src="<?php echo base_url('asset/');?>js/jquery.js"></script>
-    <script src="<?php echo base_url('asset/');?>js/bootstrap.min.js"></script>
-    <script src="<?php echo base_url('asset/');?>js/jquery.prettyPhoto.js"></script>
-    <script src="<?php echo base_url('asset/');?>js/owl.carousel.min.js"></script>
-    <script src="<?php echo base_url('asset/');?>js/jquery.isotope.min.js"></script>
-    <script src="<?php echo base_url('asset/');?>js/main.js"></script>
+    <?php $this->load->view('user/include/script'); ?>
 </body>
 
 </html>

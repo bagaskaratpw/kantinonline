@@ -7,4 +7,17 @@ class Admin extends CI_Controller {
 	{
 		$this->load->view('admin/index');
 	}
+	public function prosesregister()
+	{
+		$this->load->model('Admin_model');
+
+		$data = array(
+        'username' => $this->input->post('username'),
+        'password' => md5($this->input->post('password')),
+		 );
+		 
+		$data = $this->Admin_model->Insert('user', $data);
+    	redirect(base_url('admin/index'));
+	}
 }
+?>
