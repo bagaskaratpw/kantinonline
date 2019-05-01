@@ -73,21 +73,21 @@
 					<div class="modal fade" id="addBanner">
 						<div class="modal-dialog">
 							<div class="modal-content">
-								<?php echo form_open('banner/adding', array('class' => 'form-horizontal', 'autocomplete' => 'off')); ?>
+								<?php echo form_open('admin/prosesregister', array('class' => 'form-horizontal', 'autocomplete' => 'off')); ?>
 								<div class="modal-header">
 									<h4 class="modal-title">ADD ACCOUNT</h4>
 								</div>
 								<div class="modal-body">
 									<div id="error"></div>
 									<div class="row clearfix">
-										<form action="<?php echo base_url('admin/prosesregister');?>">
+										
 											<div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
 												<label>Name </label>
 											</div>
 											<div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
 												<div class="form-group">
 													<div class="form-line">
-														<input type="email" class="form-control" id="username" placeholder="Enter Username">
+														<input type="text" class="form-control" id="username" placeholder="Enter Username">
 													</div>
 												</div>
 											</div>
@@ -102,10 +102,10 @@
 												</div>
 											</div>
 											</div>
-										</form>
+										
 								</div>
 								<div class="modal-footer">
-									<?php echo form_submit('submit', 'ADD', array('class' => 'btn btn-success waves-effect')); ?>
+									<button type="submit" class="btn btn-primary">Submit</button>
 									<button type="button" class="btn btn-danger waves-effect" data-dismiss="modal">CANCEL</button>
 								</div>
 								<?php echo form_close(); ?>

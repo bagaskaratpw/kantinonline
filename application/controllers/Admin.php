@@ -16,7 +16,7 @@ class Admin extends CI_Controller {
         'password' => md5($this->input->post('password')),
 		 );
 		 
-		$data = $this->Admin_model->Insert('user', $data);
+		$data = $this->Admin_model->Insert('account', $data);
     	redirect(base_url('admin/index'));
 	}
 }
